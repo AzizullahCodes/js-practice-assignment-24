@@ -229,10 +229,130 @@
 // _____________________________________________________________________________
 // ques no 16
 // Math.random();
-let colors = ['green','red','yellow','blue','skyblue'];
-let randomNumber = Math.floor(Math.random()* colors.length);
-     let output = colors[randomNumber]
-     if(output === 'red'){console.log('stop')}
-     else if(output === 'yellow'){console.log('stop but start vehicle')}
-     else if( output === 'green'){console.log('move')}
-     else{console.log('invalid entry')}
+// let colors = ['green','red','yellow','blue','skyblue'];
+// let randomNumber = Math.floor(Math.random()* colors.length);
+//      let output = colors[randomNumber]
+//      if(output === 'red'){console.log('stop')}
+//      else if(output === 'yellow'){console.log('stop but start vehicle')}
+//      else if( output === 'green'){console.log('move')}
+//      else{console.log('invalid entry')}
+// _______________________________________________________________________________________
+// ques no 17
+// Create a variable with a decimal number like 4.7.
+// Use Math.round() to round it to the nearest whole number and show the
+//  result using console.log().
+// __________________________
+// ans 
+// let number = 4.7;
+//    number = Math.round(number);
+//    console.log(number);
+// __________________________________________________________________________
+// ques no 18
+// Create a variable with a decimal number like 7.9.
+// Use Math.floor() to round down to the nearest whole number.
+// ___________
+// ans 
+// let number = 7.2;
+//     number = Math.floor(number);
+//     console.log(number);
+// ___________________________________________________________________________
+// ques no 19 
+// Create a variable with a decimal number like 3.1.
+// Use Math.ceil() to round up to the nearest whole number.
+// _________________
+//  ans 
+// let number = 3.8;
+//    number = Math.ceil(number);
+//    console.log(number);
+// ______________________________________________________________________
+// ques no 20
+// Store a string in a variable.
+// Ask the user to enter a position (index).
+// Display the character at that index using alert() or console.log().
+// ________________________
+// ans 
+// let str = 'azizullah';
+// let position = prompt('enter a position');
+//     position = Number(position);
+//     let result = str.charAt(position);
+//     console.log(result);
+// ______________________________________________________________________
+// ques no 21 
+// Try these combinations in your code to test your understanding:
+
+// "Hello World" → index 0 → should return H
+// ____________________
+// ans 
+// let str1 = 'Hello World';
+// let retu = str1.charAt(6);
+// console.log(retu)
+// ______________________________________________________________________
+//  ques no 22 
+// Create a variable with a sentence and show its length.
+// let sentence = "JavaScript is fun to learn.";
+// Show the length of the sentence
+// ____________ 
+// ans 
+// let sentence = 'Javascript is fun to learn.';
+// let leng = sentence.length;
+// console.log(leng);
+// _______________________________________________________________________________
+// ques no 23 
+// Slice the word "JavaScript" from this sentence:
+// let sentence = "I am learning JavaScript step by step.";
+// _________________
+// ans 
+// let sentence = 'I am learning javascript step by step';
+// let firstIndex = sentence.indexOf('j');
+// console.log(firstIndex)
+// let endIndex = sentence.indexOf('t');
+// console.log(endIndex)
+// let result = sentence.slice(14,24);
+// console.log(result)
+// _______________________________________________________________________________
+// ques no 24 
+// Find the position of the first and last "a" in the string:
+// let text = "JavaScript is amazing!";
+// ____________
+// ans 
+// let str = 'JavaScript is amazing';
+// let firstIndex = str.indexOf('a');
+//      firstIndex = str.charAt(1);
+// console.log(firstIndex);
+// let lastIndex = str.lastIndexOf('a');
+//     lastIndex = str.charAt(16);
+// console.log(lastIndex)
+// _________________________________________________________________________________
+// ques no 25 
+//  Ask the user to enter a word, then show both uppercase and lowercase versions.
+// Example Input: JavaScript
+// Output:
+// Uppercase: JAVASCRIPT
+// Lowercase: javascript
+// ________________
+//  ans 
+// let word = prompt('enter word');
+//     console.log(word);
+//     word = word.toLowerCase();
+//     console.log(word);
+
+//     word = word.toUpperCase();
+//     console.log(word);
+// __________________________________________________________________________
+// ques no 26
+// Use nested for loops to print a 5x5 square using *.
+
+// Output Example:
+// *****
+// *****
+// *****
+// *****
+// *****
+// ________________
+// ans 
+// for(let i = 1; i <= 5; i++){let pattern = '';
+//    for(let j = 1 ; j <= 5 ;j++){
+//       pattern = pattern + "*";
+//    }
+//    console.log(pattern)
+// }
