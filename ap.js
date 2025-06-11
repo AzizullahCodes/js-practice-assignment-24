@@ -139,26 +139,26 @@
 // Print all three string values.
 // ___________________ 
 //  ans 
-// let number1 = 3432;
-// console.log(number1);
-// console.log(typeof number1);
-//     number1 = number1 + '';
-//     console.log(number1);
-//     console.log(typeof number1);
-//    //  second number
-// let number2 = 7866.7686;
-//     console.log(number2);
-//     console.log(typeof number2);
-//       number2 = number2.toString();
-//       console.log(number2);
-//       console.log(typeof number2);
-//       // third number
-// let number3 = 87887.4795;
-//   console.log(number3);
-//   console.log(typeof number3);
-//    number3 = number3 + '2';
-//    console.log(number3);
-//    console.log(typeof number3);
+ let number1 = 3432;
+ console.log(number1);
+ console.log(typeof number1);
+     number1 = number1 + '';
+     console.log(number1);
+     console.log(typeof number1);
+    //  second number
+   let number2 = 7866.7686;
+     console.log(number2);
+     console.log(typeof number2);
+       number2 = number2.toString();
+       console.log(number2);
+       console.log(typeof number2);
+       // third number
+ let number3 = 87887.4795;
+   console.log(number3);
+   console.log(typeof number3);
+    number3 = number3 + '2';
+    console.log(number3);
+    console.log(typeof number3);
    // __________________________________________________________________
    // ques no 11
    //  Task 1: Convert using Number()
